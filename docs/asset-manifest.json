@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.30b0b0c1.chunk.css",
+    "main.js": "/static/js/main.3866bc86.chunk.js",
+    "main.js.map": "/static/js/main.3866bc86.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/css/2.266e55a5.chunk.css": "/static/css/2.266e55a5.chunk.css",
+    "static/js/2.722d061f.chunk.js": "/static/js/2.722d061f.chunk.js",
+    "static/js/2.722d061f.chunk.js.map": "/static/js/2.722d061f.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.dd856da66c953224e341701fa3c790ca.js": "/precache-manifest.dd856da66c953224e341701fa3c790ca.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.266e55a5.chunk.css.map": "/static/css/2.266e55a5.chunk.css.map",
+    "static/css/main.30b0b0c1.chunk.css.map": "/static/css/main.30b0b0c1.chunk.css.map",
+    "static/media/App.css": "/static/media/digital_counter_7_italic.b89ccd44.ttf",
+    "static/media/logo-mini.svg": "/static/media/logo-mini.44183143.svg",
+    "static/media/logo.png": "/static/media/logo.bad82e98.png"
+  }
+}
