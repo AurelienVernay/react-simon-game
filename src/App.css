@@ -1,0 +1,32 @@
+/* You can add global styles to this file, and also import other style files */
+
+@font-face {
+  font-family: digitalCounter;
+  src: url(./digital_counter_7_italic.ttf);
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  user-select: none;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+p {
+  display: block;
+  margin-block-start: 0em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}

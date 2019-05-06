@@ -1,0 +1,125 @@
+#simon-wrapper {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 2em; }
+
+#frame {
+  position: relative;
+  border-radius: 100%;
+  display: inline-flex !important;
+  padding: 2em;
+  -webkit-box-shadow: 14px 17px 21px -5px rgba(0, 0, 0, 0.53);
+  -moz-box-shadow: 14px 17px 21px -5px rgba(0, 0, 0, 0.53);
+  box-shadow: 14px 17px 21px -5px rgba(0, 0, 0, 0.53);
+  background: #4c4c4c;
+  background: -moz-radial-gradient(center, ellipse cover, #4c4c4c 0%, #2c2c2c 44%, #111111 64%, #1c1c1c 91%, #131313 100%);
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #4c4c4c), color-stop(44%, #2c2c2c), color-stop(64%, #111111), color-stop(91%, #1c1c1c), color-stop(100%, #131313));
+  background: -webkit-radial-gradient(center, ellipse cover, #4c4c4c 0%, #2c2c2c 44%, #111111 64%, #1c1c1c 91%, #131313 100%);
+  background: -o-radial-gradient(center, ellipse cover, #4c4c4c 0%, #2c2c2c 44%, #111111 64%, #1c1c1c 91%, #131313 100%);
+  background: -ms-radial-gradient(center, ellipse cover, #4c4c4c 0%, #2c2c2c 44%, #111111 64%, #1c1c1c 91%, #131313 100%);
+  background: radial-gradient(ellipse at center, #4c4c4c 0%, #2c2c2c 44%, #111111 64%, #1c1c1c 91%, #131313 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313', GradientType=1 ); }
+
+#center {
+  display: inline-block;
+  border-radius: 100%;
+  position: absolute;
+  top: 20%;
+  bottom: 20%;
+  left: 20%;
+  right: 20%; }
+
+#center {
+  background: #595959;
+  background: -moz-radial-gradient(center, ellipse cover, #595959 0%, #141414 100%);
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #595959), color-stop(100%, #141414));
+  background: -webkit-radial-gradient(center, ellipse cover, #595959 0%, #141414 100%);
+  background: -o-radial-gradient(center, ellipse cover, #595959 0%, #141414 100%);
+  background: -ms-radial-gradient(center, ellipse cover, #595959 0%, #141414 100%);
+  background: radial-gradient(ellipse at center, #595959 0%, #141414 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#595959', endColorstr='#141414', GradientType=1 ); }
+
+#blue,
+#green,
+#yellow,
+#red {
+  transition: background-color 0.1s ease-in-out;
+  cursor: pointer;
+  min-width: 10em;
+  min-height: 10em; }
+
+#blue.mobile,
+#green.mobile,
+#yellow.mobile,
+#red.mobile {
+  min-width: 7em;
+  min-height: 7em; }
+
+#green {
+  background-color: green;
+  border-radius: 100% 0 0 0; }
+
+#green.blinking {
+  background-color: #80ff80; }
+
+#red {
+  background-color: red;
+  border-radius: 0 100% 0 0; }
+
+#red.blinking {
+  background-color: #ff9999; }
+
+#yellow {
+  background-color: yellow;
+  border-radius: 0 0 0 100%; }
+
+#yellow.blinking {
+  background-color: #ffff80; }
+
+#blue {
+  background-color: blue;
+  border-radius: 0 0 100% 0; }
+
+#blue.blinking {
+  background-color: #8080ff; }
+
+.label {
+  width: 96px; }
+
+.label span {
+  color: white;
+  font-family: fantasy;
+  font-size: larger; }
+
+.digital-counter {
+  display: inline-block;
+  padding: 0.1em 0.2em;
+  background-color: #4d0000;
+  border: 1px solid black;
+  color: red;
+  font-size: xx-large;
+  font-family: digitalCounter, "Courier New", Courier, monospace; }
+
+.button {
+  background-color: #808080;
+  border: none;
+  color: white;
+  font-family: fantasy;
+  font-size: larger; }
+
+.button:disabled {
+  cursor: not-allowed;
+  color: darkgrey; }
+
+.mobile {
+  font-size: large !important; }
+
+.ReactModal__Overlay {
+  opacity: 0;
+  transition: opacity 300ms ease-in-out; }
+
+.ReactModal__Overlay--after-open {
+  opacity: 1; }
+
+.ReactModal__Overlay--before-close {
+  opacity: 0; }

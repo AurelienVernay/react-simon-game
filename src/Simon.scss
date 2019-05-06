@@ -1,0 +1,227 @@
+#simon-wrapper {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 2em;
+}
+
+#frame {
+  position: relative;
+  border-radius: 100%;
+  display: inline-flex !important;
+  padding: 2em;
+  -webkit-box-shadow: 14px 17px 21px -5px rgba(0, 0, 0, 0.53);
+  -moz-box-shadow: 14px 17px 21px -5px rgba(0, 0, 0, 0.53);
+  box-shadow: 14px 17px 21px -5px rgba(0, 0, 0, 0.53);
+  background: rgba(76, 76, 76, 1);
+  background: -moz-radial-gradient(
+    center,
+    ellipse cover,
+    rgba(76, 76, 76, 1) 0%,
+    rgba(44, 44, 44, 1) 44%,
+    rgba(17, 17, 17, 1) 64%,
+    rgba(28, 28, 28, 1) 91%,
+    rgba(19, 19, 19, 1) 100%
+  );
+  background: -webkit-gradient(
+    radial,
+    center center,
+    0px,
+    center center,
+    100%,
+    color-stop(0%, rgba(76, 76, 76, 1)),
+    color-stop(44%, rgba(44, 44, 44, 1)),
+    color-stop(64%, rgba(17, 17, 17, 1)),
+    color-stop(91%, rgba(28, 28, 28, 1)),
+    color-stop(100%, rgba(19, 19, 19, 1))
+  );
+  background: -webkit-radial-gradient(
+    center,
+    ellipse cover,
+    rgba(76, 76, 76, 1) 0%,
+    rgba(44, 44, 44, 1) 44%,
+    rgba(17, 17, 17, 1) 64%,
+    rgba(28, 28, 28, 1) 91%,
+    rgba(19, 19, 19, 1) 100%
+  );
+  background: -o-radial-gradient(
+    center,
+    ellipse cover,
+    rgba(76, 76, 76, 1) 0%,
+    rgba(44, 44, 44, 1) 44%,
+    rgba(17, 17, 17, 1) 64%,
+    rgba(28, 28, 28, 1) 91%,
+    rgba(19, 19, 19, 1) 100%
+  );
+  background: -ms-radial-gradient(
+    center,
+    ellipse cover,
+    rgba(76, 76, 76, 1) 0%,
+    rgba(44, 44, 44, 1) 44%,
+    rgba(17, 17, 17, 1) 64%,
+    rgba(28, 28, 28, 1) 91%,
+    rgba(19, 19, 19, 1) 100%
+  );
+  background: radial-gradient(
+    ellipse at center,
+    rgba(76, 76, 76, 1) 0%,
+    rgba(44, 44, 44, 1) 44%,
+    rgba(17, 17, 17, 1) 64%,
+    rgba(28, 28, 28, 1) 91%,
+    rgba(19, 19, 19, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313', GradientType=1 );
+}
+
+$center-spacing: 20%;
+#center {
+  display: inline-block;
+  border-radius: 100%;
+  position: absolute;
+  top: $center-spacing;
+  bottom: $center-spacing;
+  left: $center-spacing;
+  right: $center-spacing;
+}
+
+#center {
+  background: rgba(89, 89, 89, 1);
+  background: -moz-radial-gradient(
+    center,
+    ellipse cover,
+    rgba(89, 89, 89, 1) 0%,
+    rgba(20, 20, 20, 1) 100%
+  );
+  background: -webkit-gradient(
+    radial,
+    center center,
+    0px,
+    center center,
+    100%,
+    color-stop(0%, rgba(89, 89, 89, 1)),
+    color-stop(100%, rgba(20, 20, 20, 1))
+  );
+  background: -webkit-radial-gradient(
+    center,
+    ellipse cover,
+    rgba(89, 89, 89, 1) 0%,
+    rgba(20, 20, 20, 1) 100%
+  );
+  background: -o-radial-gradient(
+    center,
+    ellipse cover,
+    rgba(89, 89, 89, 1) 0%,
+    rgba(20, 20, 20, 1) 100%
+  );
+  background: -ms-radial-gradient(
+    center,
+    ellipse cover,
+    rgba(89, 89, 89, 1) 0%,
+    rgba(20, 20, 20, 1) 100%
+  );
+  background: radial-gradient(
+    ellipse at center,
+    rgba(89, 89, 89, 1) 0%,
+    rgba(20, 20, 20, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#595959', endColorstr='#141414', GradientType=1 );
+}
+
+$dim: 10em;
+#blue,
+#green,
+#yellow,
+#red {
+  transition: background-color 0.1s ease-in-out;
+  cursor: pointer;
+  min-width: $dim;
+  min-height: $dim;
+}
+$min-dim: 7em;
+#blue.mobile,
+#green.mobile,
+#yellow.mobile,
+#red.mobile {
+  min-width: $min-dim;
+  min-height: $min-dim;
+}
+
+#green {
+  background-color: green;
+  border-radius: 100% 0 0 0;
+}
+
+#green.blinking {
+  background-color: #80ff80;
+}
+
+#red {
+  background-color: red;
+  border-radius: 0 100% 0 0;
+}
+#red.blinking {
+  background-color: #ff9999;
+}
+
+#yellow {
+  background-color: yellow;
+  border-radius: 0 0 0 100%;
+}
+#yellow.blinking {
+  background-color: #ffff80;
+}
+
+#blue {
+  background-color: blue;
+  border-radius: 0 0 100% 0;
+}
+
+#blue.blinking {
+  background-color: #8080ff;
+}
+.label {
+  width: 96px;
+}
+.label span {
+  color: white;
+  font-family: fantasy;
+  font-size: larger;
+}
+.digital-counter {
+  display: inline-block;
+  padding: 0.1em 0.2em;
+  background-color: #4d0000;
+  border: 1px solid black;
+  color: red;
+  font-size: xx-large;
+  font-family: digitalCounter, "Courier New", Courier, monospace;
+}
+
+.button {
+  background-color: #808080;
+  border: none;
+  color: white;
+  font-family: fantasy;
+  font-size: larger;
+}
+
+.button:disabled {
+  cursor: not-allowed;
+  color: darkgrey;
+}
+
+.mobile {
+  font-size: large !important;
+}
+
+.ReactModal__Overlay {
+  opacity: 0;
+  transition: opacity 300ms ease-in-out;
+}
+
+.ReactModal__Overlay--after-open {
+  opacity: 1;
+}
+
+.ReactModal__Overlay--before-close {
+  opacity: 0;
+}
