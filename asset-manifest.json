@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/react-simon-game/static/css/main.5c05d006.chunk.css",
+    "main.js": "/react-simon-game/static/js/main.e7f54dfc.chunk.js",
+    "main.js.map": "/react-simon-game/static/js/main.e7f54dfc.chunk.js.map",
+    "runtime~main.js": "/react-simon-game/static/js/runtime~main.f8563ed7.js",
+    "runtime~main.js.map": "/react-simon-game/static/js/runtime~main.f8563ed7.js.map",
+    "static/css/2.266e55a5.chunk.css": "/react-simon-game/static/css/2.266e55a5.chunk.css",
+    "static/js/2.722d061f.chunk.js": "/react-simon-game/static/js/2.722d061f.chunk.js",
+    "static/js/2.722d061f.chunk.js.map": "/react-simon-game/static/js/2.722d061f.chunk.js.map",
+    "index.html": "/react-simon-game/index.html",
+    "precache-manifest.64512a3dfa6f077790d6b2ac94ecce32.js": "/react-simon-game/precache-manifest.64512a3dfa6f077790d6b2ac94ecce32.js",
+    "service-worker.js": "/react-simon-game/service-worker.js",
+    "static/css/2.266e55a5.chunk.css.map": "/react-simon-game/static/css/2.266e55a5.chunk.css.map",
+    "static/css/main.5c05d006.chunk.css.map": "/react-simon-game/static/css/main.5c05d006.chunk.css.map",
+    "static/media/App.css": "/react-simon-game/static/media/digital_counter_7_italic.b89ccd44.ttf",
+    "static/media/logo-mini.svg": "/react-simon-game/static/media/logo-mini.44183143.svg",
+    "static/media/logo.png": "/react-simon-game/static/media/logo.bad82e98.png"
+  }
+}
