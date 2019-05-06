@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "154931931970449cfdeff12527e3166e",
+    "revision": "4bf2dc482420ab3c4a539124d028a081",
     "url": "/react-simon-game/index.html"
   },
   {
