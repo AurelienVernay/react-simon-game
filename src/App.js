@@ -32,7 +32,7 @@ function Header() {
           data-recalc-dims="1"
         />
       </a>
-      <a href="https://aurelienvernay.github.io">
+      <a href="http://aurelien-vernay-solutions.com">
         <img
           src={headerLogo}
           alt="Aurélien Vernay Solutions"
