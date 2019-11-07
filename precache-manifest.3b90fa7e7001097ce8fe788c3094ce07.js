@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4bf2dc482420ab3c4a539124d028a081",
+    "revision": "bf9d0c6ddadd858d7288bccf348f6dd6",
     "url": "/react-simon-game/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-simon-game/static/css/2.266e55a5.chunk.css"
   },
   {
-    "revision": "e7a2f2e718d6a371edd8",
+    "revision": "234d1eff750982f6154f",
     "url": "/react-simon-game/static/css/main.5c05d006.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-simon-game/static/js/2.722d061f.chunk.js"
   },
   {
-    "revision": "e7a2f2e718d6a371edd8",
-    "url": "/react-simon-game/static/js/main.e7f54dfc.chunk.js"
+    "revision": "234d1eff750982f6154f",
+    "url": "/react-simon-game/static/js/main.1e60e60f.chunk.js"
   },
   {
     "revision": "9850a664b2a0b0565055",
