@@ -85,8 +85,8 @@ function Footer() {
       <p>
         <img src={logoMini} alt="Aurélien Vernay Solutions" height="32" />
         2019 - Fait par Aurélien VERNAY (visitez mon{" "}
-        <a href="https://aurelienvernay.github.io">site web</a> pour en savoir
-        plus)
+        <a href="http://aurelien-vernay-solutions.com">site web</a> pour en
+        savoir plus)
       </p>
     </div>
   );
